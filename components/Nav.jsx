@@ -48,10 +48,7 @@ function Nav() {
                         href='/create-prompt'
                         className='black_btn'>Create Post
                     </Link>
-                    <button 
-                        type='button'
-                        onClick={signOut}
-                        className='outline_btn'
+                    <button type='button' onClick={signOut} className='outline_btn'
                     >Sign Out</button>
                     <Link href='/profile'>
                         <Image 
@@ -83,7 +80,7 @@ function Nav() {
 
 
         {/* Mobile Navigation */}
-
+{/* 
         <div className='sm:hidden flex relative'>
             {isUserLoggedIn ? (
                 <div className='flex'>
@@ -140,7 +137,7 @@ function Nav() {
                 </>
             )}
 
-        </div>
+        </div> */}
 
     </nav>
   )
